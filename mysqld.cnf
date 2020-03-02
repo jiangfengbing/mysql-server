@@ -14,8 +14,8 @@ max-connect-errors             = 1000000
 datadir                        = /var/lib/mysql/
 
 # CACHES AND LIMITS #
-tmp-table-size                 = 32M
-max-heap-table-size            = 32M
+tmp-table-size                 = 64M
+max-heap-table-size            = 64M
 query-cache-type               = 0
 query-cache-size               = 0
 max-connections                = 100
