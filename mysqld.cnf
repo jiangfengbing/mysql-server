@@ -24,8 +24,14 @@ open-files-limit               = 65535
 table-definition-cache         = 4096
 table-open-cache               = 4096
 
-innodb-flush-log-at-trx-commit = 1
 innodb-file-per-table          = 1
+innodb_buffer_pool_instances   = 2
+innodb_buffer_pool_size        = 2G
+innodb_log_buffer_size         = 16M
+innodb_log_file_size           = 256M
+innodb_flush_log_at_trx_commit = 0
+innodb_stats_on_metadata       = 0
+innodb_flush_method            = O_DIRECT
 
 bind-address	               = 0.0.0.0
 
